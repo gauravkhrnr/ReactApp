@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import ReactDOM from 'react-dom';  
-class ApiComponent extends React.Component{
+class Api extends React.Component{
     constructor(props){
         super(props);
         this.state ={
@@ -40,4 +40,4 @@ class ApiComponent extends React.Component{
     }
 }
 
-export default ApiComponent;  
+export default Api;  
